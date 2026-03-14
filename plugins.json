@@ -263,6 +263,37 @@
       "minPluginKitVersion": 1,
       "iconName": "redis-icon",
       "isVerified": true
+    },
+    {
+      "id": "com.TablePro.SQLImportPlugin",
+      "name": "SQL Import",
+      "version": "1.0.0",
+      "summary": "Import data from SQL dump files",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/features/import",
+      "category": "import-format",
+      "databaseTypeIds": null,
+      "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-sqlimport-v1.0.0/SQLImport-arm64.zip",
+      "sha256": "4c6764d0fd18d93bd09d3f8ff654e589ff77c764447310bc63110bc1ac10cf43",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-sqlimport-v1.0.0/SQLImport-arm64.zip",
+          "sha256": "4c6764d0fd18d93bd09d3f8ff654e589ff77c764447310bc63110bc1ac10cf43"
+        },
+        {
+          "architecture": "x86_64",
+          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-sqlimport-v1.0.0/SQLImport-x86_64.zip",
+          "sha256": "c5a29dbf7d3b00e08b56f430e83c1dd05d0bc20963c8ce2f15bd5b24448cb75b"
+        }
+      ],
+      "minAppVersion": "0.18.0",
+      "minPluginKitVersion": 1,
+      "iconName": "square.and.arrow.down",
+      "isVerified": true
     }
   ]
 }
