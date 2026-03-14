@@ -2,39 +2,6 @@
   "schemaVersion": 1,
   "plugins": [
     {
-      "id": "com.TablePro.OracleDriver",
-      "name": "Oracle Driver",
-      "version": "1.0.1",
-      "summary": "Oracle Database 12c+ driver via OracleNIO",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://tablepro.app/databases/oracle",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "Oracle"
-      ],
-      "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-oracle-v1.0.1/OracleDriver-arm64.zip",
-      "sha256": "e53c1fac9369b6c28fd09c6beea42c1d740df14128d1decce476c0687729bcae",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-oracle-v1.0.1/OracleDriver-arm64.zip",
-          "sha256": "e53c1fac9369b6c28fd09c6beea42c1d740df14128d1decce476c0687729bcae"
-        },
-        {
-          "architecture": "x86_64",
-          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-oracle-v1.0.1/OracleDriver-x86_64.zip",
-          "sha256": "f249fdc12017531a96f7b546d7f892a4d450d8cc057fa816ac3b8c5ad49357f4"
-        }
-      ],
-      "minAppVersion": "0.17.0",
-      "minPluginKitVersion": 1,
-      "iconName": "server.rack",
-      "isVerified": true
-    },
-    {
       "id": "com.TablePro.ClickHouseDriver",
       "name": "ClickHouse Driver",
       "version": "1.0.1",
@@ -293,6 +260,39 @@
       "minAppVersion": "0.18.0",
       "minPluginKitVersion": 1,
       "iconName": "square.and.arrow.down",
+      "isVerified": true
+    },
+    {
+      "id": "com.TablePro.OracleDriver",
+      "name": "Oracle Driver",
+      "version": "1.0.2",
+      "summary": "Oracle Database 12c+ driver via OracleNIO",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/oracle",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Oracle"
+      ],
+      "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-oracle-v1.0.2/OracleDriver-arm64.zip",
+      "sha256": "9eaa5323668c26a9ebbb79fb65d33355186ae41d16b5444b57f1f9c654bd0652",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-oracle-v1.0.2/OracleDriver-arm64.zip",
+          "sha256": "9eaa5323668c26a9ebbb79fb65d33355186ae41d16b5444b57f1f9c654bd0652"
+        },
+        {
+          "architecture": "x86_64",
+          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-oracle-v1.0.2/OracleDriver-x86_64.zip",
+          "sha256": "f596c260e260b770040e6f033634d111dd57bc819fb7d13de86cd7a68f243a6b"
+        }
+      ],
+      "minAppVersion": "0.18.0",
+      "minPluginKitVersion": 1,
+      "iconName": "server.rack",
       "isVerified": true
     }
   ]
