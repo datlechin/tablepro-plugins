@@ -234,37 +234,6 @@
       "isVerified": true
     },
     {
-      "id": "com.TablePro.XLSXExportPlugin",
-      "name": "XLSX Export",
-      "version": "1.0.0",
-      "summary": "Export data to Microsoft Excel XLSX format",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/features/export",
-      "category": "export-format",
-      "databaseTypeIds": null,
-      "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-xlsx-v1.0.0/XLSXExport-arm64.zip",
-      "sha256": "261f9d855a4f3cba1291d574b7748996c6b7ad8f630fb1496ff1288f6f2754c3",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-xlsx-v1.0.0/XLSXExport-arm64.zip",
-          "sha256": "261f9d855a4f3cba1291d574b7748996c6b7ad8f630fb1496ff1288f6f2754c3"
-        },
-        {
-          "architecture": "x86_64",
-          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-xlsx-v1.0.0/XLSXExport-x86_64.zip",
-          "sha256": "4c787a7b24183ddce9f27a7b2543bc680d0af6a04bf04f01b4f1ddea7ab12a72"
-        }
-      ],
-      "minAppVersion": "0.18.0",
-      "minPluginKitVersion": 1,
-      "iconName": "doc.richtext",
-      "isVerified": true
-    },
-    {
       "id": "com.TablePro.MQLExportPlugin",
       "name": "MQL Export",
       "version": "1.0.0",
@@ -357,6 +326,37 @@
       "minAppVersion": "0.20.2",
       "minPluginKitVersion": 1,
       "iconName": "bird",
+      "isVerified": true
+    },
+    {
+      "id": "com.TablePro.XLSXExportPlugin",
+      "name": "XLSX Export",
+      "version": "1.0.1",
+      "summary": "Export data to Microsoft Excel XLSX format",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/features/export",
+      "category": "export-format",
+      "databaseTypeIds": null,
+      "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-xlsx-v1.0.1/XLSXExport-arm64.zip",
+      "sha256": "bc1f32193e6127798e026c10b33cd51e98481eee7836ffefe74b92835f2a1082",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-xlsx-v1.0.1/XLSXExport-arm64.zip",
+          "sha256": "bc1f32193e6127798e026c10b33cd51e98481eee7836ffefe74b92835f2a1082"
+        },
+        {
+          "architecture": "x86_64",
+          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-xlsx-v1.0.1/XLSXExport-x86_64.zip",
+          "sha256": "e9c1bf4ab40c976175469619a2f3ec762919636b09fa526b8f468746fb675325"
+        }
+      ],
+      "minAppVersion": "0.20.2",
+      "minPluginKitVersion": 1,
+      "iconName": "doc.richtext",
       "isVerified": true
     }
   ]
