@@ -102,37 +102,6 @@
       "isVerified": true
     },
     {
-      "id": "com.TablePro.SQLImportPlugin",
-      "name": "SQL Import",
-      "version": "1.0.2",
-      "summary": "Import data from SQL dump files",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/features/import",
-      "category": "import-format",
-      "databaseTypeIds": null,
-      "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-sqlimport-v1.0.2/SQLImport-arm64.zip",
-      "sha256": "2330d34e9f6f9624277e2be5e106cae9eca0e8904827b27e2de5716284f64ce0",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-sqlimport-v1.0.2/SQLImport-arm64.zip",
-          "sha256": "2330d34e9f6f9624277e2be5e106cae9eca0e8904827b27e2de5716284f64ce0"
-        },
-        {
-          "architecture": "x86_64",
-          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-sqlimport-v1.0.2/SQLImport-x86_64.zip",
-          "sha256": "275f1428759357d679177fcc44305eac8cbde80021c3b5e4c1e25d9fa01886d4"
-        }
-      ],
-      "minAppVersion": "0.20.4",
-      "minPluginKitVersion": 1,
-      "iconName": "square.and.arrow.down",
-      "isVerified": true
-    },
-    {
       "id": "com.TablePro.ClickHouseDriver",
       "name": "ClickHouse Driver",
       "version": "1.0.5",
@@ -390,6 +359,37 @@
       "minAppVersion": "0.21.0",
       "minPluginKitVersion": 1,
       "iconName": "doc.text",
+      "isVerified": true
+    },
+    {
+      "id": "com.TablePro.SQLImportPlugin",
+      "name": "SQL Import",
+      "version": "1.0.3",
+      "summary": "Import data from SQL dump files",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/features/import",
+      "category": "import-format",
+      "databaseTypeIds": null,
+      "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-sqlimport-v1.0.3/SQLImport-arm64.zip",
+      "sha256": "08c0c78f93323e081903009e91e15c532f926a33e1e91edb9be16ec3f97503b6",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-sqlimport-v1.0.3/SQLImport-arm64.zip",
+          "sha256": "08c0c78f93323e081903009e91e15c532f926a33e1e91edb9be16ec3f97503b6"
+        },
+        {
+          "architecture": "x86_64",
+          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-sqlimport-v1.0.3/SQLImport-x86_64.zip",
+          "sha256": "7c05eeec89052c1fcef1145a026d3a1b3cd8b5e0456ef4657ee9dd4603ab45f2"
+        }
+      ],
+      "minAppVersion": "0.21.0",
+      "minPluginKitVersion": 1,
+      "iconName": "square.and.arrow.down",
       "isVerified": true
     }
   ]
