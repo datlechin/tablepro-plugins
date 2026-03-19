@@ -133,37 +133,6 @@
       "isVerified": true
     },
     {
-      "id": "com.TablePro.MQLExportPlugin",
-      "name": "MQL Export",
-      "version": "1.0.1",
-      "summary": "Export MongoDB data as MQL statements",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/features/export",
-      "category": "export-format",
-      "databaseTypeIds": null,
-      "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-mql-v1.0.1/MQLExport-arm64.zip",
-      "sha256": "d385e9cfaf07ea518b963c0c5c102ebb2b6288b4b17f8076e511a547f12a62bc",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-mql-v1.0.1/MQLExport-arm64.zip",
-          "sha256": "d385e9cfaf07ea518b963c0c5c102ebb2b6288b4b17f8076e511a547f12a62bc"
-        },
-        {
-          "architecture": "x86_64",
-          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-mql-v1.0.1/MQLExport-x86_64.zip",
-          "sha256": "705f784eacc6f23de5376a2eab5af3fcd8ec166f4463034aaa572527362496cf"
-        }
-      ],
-      "minAppVersion": "0.20.2",
-      "minPluginKitVersion": 1,
-      "iconName": "doc.text",
-      "isVerified": true
-    },
-    {
       "id": "com.TablePro.MongoDBDriver",
       "name": "MongoDB Driver",
       "version": "1.0.2",
@@ -357,6 +326,37 @@
       "minAppVersion": "0.20.4",
       "minPluginKitVersion": 1,
       "iconName": "square.and.arrow.down",
+      "isVerified": true
+    },
+    {
+      "id": "com.TablePro.MQLExportPlugin",
+      "name": "MQL Export",
+      "version": "1.0.2",
+      "summary": "Export MongoDB data as MQL statements",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/features/export",
+      "category": "export-format",
+      "databaseTypeIds": null,
+      "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-mql-v1.0.2/MQLExport-arm64.zip",
+      "sha256": "16b066c9d16a5ba517c3e619be850f57d6d8dbd35a0f2d220c52fb28f34c2c87",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-mql-v1.0.2/MQLExport-arm64.zip",
+          "sha256": "16b066c9d16a5ba517c3e619be850f57d6d8dbd35a0f2d220c52fb28f34c2c87"
+        },
+        {
+          "architecture": "x86_64",
+          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-mql-v1.0.2/MQLExport-x86_64.zip",
+          "sha256": "588c1ec311a2f995a8a19b7c1c2a39cb9334391ddb2e68875156db2ee8606944"
+        }
+      ],
+      "minAppVersion": "0.20.4",
+      "minPluginKitVersion": 1,
+      "iconName": "doc.text",
       "isVerified": true
     }
   ]
