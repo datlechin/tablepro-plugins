@@ -395,7 +395,7 @@
     {
       "id": "com.TablePro.RedisDriver",
       "name": "Redis Driver",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "summary": "Redis in-memory data store driver via hiredis",
       "author": {
         "name": "TablePro",
@@ -406,18 +406,18 @@
       "databaseTypeIds": [
         "Redis"
       ],
-      "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-redis-v1.0.5/RedisDriver-arm64.zip",
-      "sha256": "2528a29b8afc97995284875d1f2639e89e7415ada57041b45b37927ce1a41135",
+      "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-redis-v1.0.6/RedisDriver-arm64.zip",
+      "sha256": "392cfa600c5556afbda0f04b4ab440fa3821d5ad638b84e242de6c7e6ca636f9",
       "binaries": [
         {
           "architecture": "arm64",
-          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-redis-v1.0.5/RedisDriver-arm64.zip",
-          "sha256": "2528a29b8afc97995284875d1f2639e89e7415ada57041b45b37927ce1a41135"
+          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-redis-v1.0.6/RedisDriver-arm64.zip",
+          "sha256": "392cfa600c5556afbda0f04b4ab440fa3821d5ad638b84e242de6c7e6ca636f9"
         },
         {
           "architecture": "x86_64",
-          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-redis-v1.0.5/RedisDriver-x86_64.zip",
-          "sha256": "e2376ecef80cbc2345e063d6a39396d2bffc3f66e0fdc467f4f4a60ce93efc5e"
+          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-redis-v1.0.6/RedisDriver-x86_64.zip",
+          "sha256": "0875911d83a9140df7275c005c20ce2a9a490b1d00f6c19a152e72e41520c922"
         }
       ],
       "minAppVersion": "0.22.0",
