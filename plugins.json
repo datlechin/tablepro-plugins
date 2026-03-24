@@ -232,39 +232,6 @@
       "isVerified": true
     },
     {
-      "id": "com.TablePro.CloudflareD1DriverPlugin",
-      "name": "Cloudflare D1 Driver",
-      "version": "1.0.1",
-      "summary": "Cloudflare D1 serverless SQLite-compatible database driver via REST API",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/cloudflare-d1",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "Cloudflare D1"
-      ],
-      "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-cloudflare-d1-v1.0.1/CloudflareD1DriverPlugin-arm64.zip",
-      "sha256": "43dedd132e9562e9d075ef4785a5c1674b46ad7fa19bcdbaa753dd0de03f01df",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-cloudflare-d1-v1.0.1/CloudflareD1DriverPlugin-arm64.zip",
-          "sha256": "43dedd132e9562e9d075ef4785a5c1674b46ad7fa19bcdbaa753dd0de03f01df"
-        },
-        {
-          "architecture": "x86_64",
-          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-cloudflare-d1-v1.0.1/CloudflareD1DriverPlugin-x86_64.zip",
-          "sha256": "d71a658c4cce67b0a501d9f6eab96737c534575f6aeb8b657df785d33b84d34e"
-        }
-      ],
-      "minAppVersion": "0.23.0",
-      "minPluginKitVersion": 2,
-      "iconName": "cloudflare-d1-icon",
-      "isVerified": true
-    },
-    {
       "id": "com.TablePro.RedisDriver",
       "name": "Redis Driver",
       "version": "1.0.7",
@@ -423,6 +390,39 @@
       "minAppVersion": "0.23.2",
       "minPluginKitVersion": 2,
       "iconName": "bird",
+      "isVerified": true
+    },
+    {
+      "id": "com.TablePro.CloudflareD1DriverPlugin",
+      "name": "Cloudflare D1 Driver",
+      "version": "1.0.2",
+      "summary": "Cloudflare D1 serverless SQLite-compatible database driver via REST API",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/cloudflare-d1",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Cloudflare D1"
+      ],
+      "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-cloudflare-d1-v1.0.2/CloudflareD1DriverPlugin-arm64.zip",
+      "sha256": "a5f591f14fde488f7ffe72edf6c551945f5aa003f17f7f161873f716893536b1",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-cloudflare-d1-v1.0.2/CloudflareD1DriverPlugin-arm64.zip",
+          "sha256": "a5f591f14fde488f7ffe72edf6c551945f5aa003f17f7f161873f716893536b1"
+        },
+        {
+          "architecture": "x86_64",
+          "downloadURL": "https://github.com/datlechin/TablePro/releases/download/plugin-cloudflare-d1-v1.0.2/CloudflareD1DriverPlugin-x86_64.zip",
+          "sha256": "98301dd257c0caa528dcabc547be9617949fdf5886af059ac42552516c87e56c"
+        }
+      ],
+      "minAppVersion": "0.23.2",
+      "minPluginKitVersion": 2,
+      "iconName": "cloudflare-d1-icon",
       "isVerified": true
     }
   ]
