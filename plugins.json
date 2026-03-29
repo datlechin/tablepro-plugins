@@ -2,105 +2,6 @@
   "schemaVersion": 1,
   "plugins": [
     {
-      "id": "com.TablePro.DuckDBDriver",
-      "name": "DuckDB Driver",
-      "version": "1.0.8",
-      "summary": "DuckDB analytical database driver",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/duckdb",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "DuckDB"
-      ],
-      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.8/DuckDBDriver-arm64.zip",
-      "sha256": "25ec2f5c2ee76f19a3c49a41ea6e6d4c95817b6c8a48aff462c8dab9b3c5c385",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.8/DuckDBDriver-arm64.zip",
-          "sha256": "25ec2f5c2ee76f19a3c49a41ea6e6d4c95817b6c8a48aff462c8dab9b3c5c385"
-        },
-        {
-          "architecture": "x86_64",
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.8/DuckDBDriver-x86_64.zip",
-          "sha256": "9d62efaa695a90d670ab445dc92c7c06720f54a0624b260e68b88adbb0d3f50e"
-        }
-      ],
-      "minAppVersion": "0.24.0",
-      "minPluginKitVersion": 2,
-      "iconName": "bird",
-      "isVerified": true
-    },
-    {
-      "id": "com.TablePro.CloudflareD1DriverPlugin",
-      "name": "Cloudflare D1 Driver",
-      "version": "1.0.2",
-      "summary": "Cloudflare D1 serverless SQLite-compatible database driver via REST API",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/cloudflare-d1",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "Cloudflare D1"
-      ],
-      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.2/CloudflareD1DriverPlugin-arm64.zip",
-      "sha256": "a5f591f14fde488f7ffe72edf6c551945f5aa003f17f7f161873f716893536b1",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.2/CloudflareD1DriverPlugin-arm64.zip",
-          "sha256": "a5f591f14fde488f7ffe72edf6c551945f5aa003f17f7f161873f716893536b1"
-        },
-        {
-          "architecture": "x86_64",
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.2/CloudflareD1DriverPlugin-x86_64.zip",
-          "sha256": "98301dd257c0caa528dcabc547be9617949fdf5886af059ac42552516c87e56c"
-        }
-      ],
-      "minAppVersion": "0.24.0",
-      "minPluginKitVersion": 2,
-      "iconName": "cloudflare-d1-icon",
-      "isVerified": true
-    },
-    {
-      "id": "com.TablePro.EtcdDriverPlugin",
-      "name": "etcd Driver",
-      "version": "1.0.4",
-      "summary": "etcd v3 key-value store driver with prefix-tree browsing and lease management",
-      "author": {
-        "name": "TablePro",
-        "url": "https://tablepro.app"
-      },
-      "homepage": "https://docs.tablepro.app/databases/etcd",
-      "category": "database-driver",
-      "databaseTypeIds": [
-        "etcd"
-      ],
-      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.4/EtcdDriverPlugin-arm64.zip",
-      "sha256": "24f4d9242e0a2b9679eb17c6647d4a51f02c987a94f3ad41b9cb903be22a2529",
-      "binaries": [
-        {
-          "architecture": "arm64",
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.4/EtcdDriverPlugin-arm64.zip",
-          "sha256": "24f4d9242e0a2b9679eb17c6647d4a51f02c987a94f3ad41b9cb903be22a2529"
-        },
-        {
-          "architecture": "x86_64",
-          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.4/EtcdDriverPlugin-x86_64.zip",
-          "sha256": "714b5c84ab755f92bf1be62e85b8af1fc58f4e240c4df50185ef32023f3fc935"
-        }
-      ],
-      "minAppVersion": "0.24.0",
-      "minPluginKitVersion": 2,
-      "iconName": "etcd-icon",
-      "isVerified": true
-    },
-    {
       "id": "com.TablePro.CassandraDriver",
       "name": "Cassandra Driver",
       "version": "1.0.3",
@@ -229,6 +130,202 @@
       "minAppVersion": "0.26.0",
       "minPluginKitVersion": 2,
       "iconName": "mongodb-icon",
+      "isVerified": true
+    },
+    {
+      "id": "com.TablePro.BigQueryDriverPlugin",
+      "name": "BigQuery Driver",
+      "version": "1.0.0",
+      "summary": "Google BigQuery analytics database driver via REST API",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/bigquery",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "BigQuery"
+      ],
+      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.0/BigQueryDriverPlugin-arm64.zip",
+      "sha256": "f28f3276b6cc45a240785a45a483f563000027ead2a56844947a9e07e239cf9d",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.0/BigQueryDriverPlugin-arm64.zip",
+          "sha256": "f28f3276b6cc45a240785a45a483f563000027ead2a56844947a9e07e239cf9d"
+        },
+        {
+          "architecture": "x86_64",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-bigquery-v1.0.0/BigQueryDriverPlugin-x86_64.zip",
+          "sha256": "b0ffcb8c6dae0bb0a347102dede0c3e70c110d6c2b50bbc6b62435ae57e5eb01"
+        }
+      ],
+      "minAppVersion": "0.26.0",
+      "minPluginKitVersion": 2,
+      "iconName": "bigquery-icon",
+      "isVerified": true
+    },
+    {
+      "id": "com.TablePro.ClickHouseDriver",
+      "name": "ClickHouse Driver",
+      "version": "1.0.8",
+      "summary": "ClickHouse OLAP database driver via HTTP interface",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/clickhouse",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "ClickHouse"
+      ],
+      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-clickhouse-v1.0.8/ClickHouseDriver-arm64.zip",
+      "sha256": "8360289cfe93e4d1d50251485aa9fae79f27df2e917704704a325666ca022db0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-clickhouse-v1.0.8/ClickHouseDriver-arm64.zip",
+          "sha256": "8360289cfe93e4d1d50251485aa9fae79f27df2e917704704a325666ca022db0"
+        },
+        {
+          "architecture": "x86_64",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-clickhouse-v1.0.8/ClickHouseDriver-x86_64.zip",
+          "sha256": "67cb2ce027705e553bdac8d4cd2a32582f1371a47f7b779fce176c6659c0c5a2"
+        }
+      ],
+      "minAppVersion": "0.26.0",
+      "minPluginKitVersion": 2,
+      "iconName": "chart.bar.xaxis",
+      "isVerified": true
+    },
+    {
+      "id": "com.TablePro.CloudflareD1DriverPlugin",
+      "name": "Cloudflare D1 Driver",
+      "version": "1.0.3",
+      "summary": "Cloudflare D1 serverless SQLite-compatible database driver via REST API",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/cloudflare-d1",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "Cloudflare D1"
+      ],
+      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.3/CloudflareD1DriverPlugin-arm64.zip",
+      "sha256": "5f64970b5cf200509df8045bc1f10702969c7f4c776e7f8946ae2895fe031963",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.3/CloudflareD1DriverPlugin-arm64.zip",
+          "sha256": "5f64970b5cf200509df8045bc1f10702969c7f4c776e7f8946ae2895fe031963"
+        },
+        {
+          "architecture": "x86_64",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-cloudflare-d1-v1.0.3/CloudflareD1DriverPlugin-x86_64.zip",
+          "sha256": "bd134208805dc4ff6a0ddfcd79bf9a1c9ac038d9732bd7b62062ef8232374d97"
+        }
+      ],
+      "minAppVersion": "0.26.0",
+      "minPluginKitVersion": 2,
+      "iconName": "cloudflare-d1-icon",
+      "isVerified": true
+    },
+    {
+      "id": "com.TablePro.DuckDBDriver",
+      "name": "DuckDB Driver",
+      "version": "1.0.9",
+      "summary": "DuckDB analytical database driver",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/duckdb",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "DuckDB"
+      ],
+      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.9/DuckDBDriver-arm64.zip",
+      "sha256": "360df4050981539d979f63530adafb515b4c279a9f815b5168b17c6cd26015ed",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.9/DuckDBDriver-arm64.zip",
+          "sha256": "360df4050981539d979f63530adafb515b4c279a9f815b5168b17c6cd26015ed"
+        },
+        {
+          "architecture": "x86_64",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-duckdb-v1.0.9/DuckDBDriver-x86_64.zip",
+          "sha256": "68bbe81d7054cce71de42b819cf90249769eb436796339fc9765969c2062796e"
+        }
+      ],
+      "minAppVersion": "0.26.0",
+      "minPluginKitVersion": 2,
+      "iconName": "bird",
+      "isVerified": true
+    },
+    {
+      "id": "com.TablePro.EtcdDriverPlugin",
+      "name": "etcd Driver",
+      "version": "1.0.5",
+      "summary": "etcd v3 key-value store driver with prefix-tree browsing and lease management",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/databases/etcd",
+      "category": "database-driver",
+      "databaseTypeIds": [
+        "etcd"
+      ],
+      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.5/EtcdDriverPlugin-arm64.zip",
+      "sha256": "0a9bfd8809f5ba0902ef29be36265f56e8d267eeb642f9ac1a9482d86ce9f6e0",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.5/EtcdDriverPlugin-arm64.zip",
+          "sha256": "0a9bfd8809f5ba0902ef29be36265f56e8d267eeb642f9ac1a9482d86ce9f6e0"
+        },
+        {
+          "architecture": "x86_64",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-etcd-v1.0.5/EtcdDriverPlugin-x86_64.zip",
+          "sha256": "2c197e970bc75d1afb1d06ac24d91f89db5132d213391382ba88f28aa8992373"
+        }
+      ],
+      "minAppVersion": "0.26.0",
+      "minPluginKitVersion": 2,
+      "iconName": "etcd-icon",
+      "isVerified": true
+    },
+    {
+      "id": "com.TablePro.MQLExportPlugin",
+      "name": "MQL Export",
+      "version": "1.0.6",
+      "summary": "Export MongoDB data as MQL statements",
+      "author": {
+        "name": "TablePro",
+        "url": "https://tablepro.app"
+      },
+      "homepage": "https://docs.tablepro.app/features/export",
+      "category": "export-format",
+      "databaseTypeIds": null,
+      "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mql-v1.0.6/MQLExport-arm64.zip",
+      "sha256": "04539614b4e2602806be093f3649f587f275c2b40e8e4661e68108f86e0dff3c",
+      "binaries": [
+        {
+          "architecture": "arm64",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mql-v1.0.6/MQLExport-arm64.zip",
+          "sha256": "04539614b4e2602806be093f3649f587f275c2b40e8e4661e68108f86e0dff3c"
+        },
+        {
+          "architecture": "x86_64",
+          "downloadURL": "https://github.com/TableProApp/TablePro/releases/download/plugin-mql-v1.0.6/MQLExport-x86_64.zip",
+          "sha256": "6e4def8024063fbd2321db059753b532a21f292210273d835e34fca55e39b84f"
+        }
+      ],
+      "minAppVersion": "0.26.0",
+      "minPluginKitVersion": 2,
+      "iconName": "doc.text",
       "isVerified": true
     }
   ]
